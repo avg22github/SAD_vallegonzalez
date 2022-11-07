@@ -17,5 +17,3 @@ services:
       PASSWORD: bolson
     volumes:
       - ./webdav:/var/lib/dav
-    depends_on:
-      - proxy
